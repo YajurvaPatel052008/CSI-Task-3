@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "CSI Event Companion",
+    "slug": "csi-event-companion",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/csi-logo.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6f5bcbea-413e-4cc2-b984-f0eeb3b827c7"
+      }
+    },
+    "android": {
+      "package": "com.patel2008.csieventcompanion"
+    }
+  }
+}

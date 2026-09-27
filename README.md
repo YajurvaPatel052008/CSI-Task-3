@@ -1,121 +1,29 @@
-# CSI AITR Event Companion
+# CSI Event Companion
 
-## About the Project
+A simple JavaScript Expo app for the CSI AITR Student Chapter. Browse upcoming events, search, view details, save events, and register using a local demo form.
 
-CSI AITR Event Companion is a simple and responsive web application designed for students of the CSI AITR Student Chapter.
+## Run the app
 
-The application allows students to explore CSI events, view event information, save interesting events, and register for events from one place.
+```sh
+npm install
+npm start
+```
 
-The project focuses on a clean user interface and simple frontend functionality.
+Scan the QR code with Expo Go, or press `a` / `i` in the Expo terminal to open an Android or iOS simulator.
 
 ## Features
 
-### Home
+- Home screen with the CSI AITR chapter branding and featured event
+- Searchable list of eight upcoming demo events
+- Event details and registration form with required-field, email, and phone validation
+- Saved events and registrations stored on the device with AsyncStorage
+- Duplicate registrations are prevented
+- Bottom navigation between Home, Events, Saved, and Registrations
 
-- CSI AITR Student Chapter branding
-- Introduction to the Event Companion
-- Quick access to events
-- Easy navigation to important sections
+## Project files
 
-### Events
+- `App.js` — screens, navigation, form, and local state
+- `events.js` — local demo events
+- `assets/csi-logo.png` and `assets/aitr-logo.png` — CSI and institute logos
 
-- View available CSI events
-- Browse event information
-- Open event details
-- Explore upcoming activities
-
-### Saved Events
-
-Users can save events that they are interested in and access them later from the Saved Events section.
-
-### My Registrations
-
-This section allows users to view the events for which they have registered.
-
-### Event Registration
-
-Students can register for an event by providing:
-
-- Full Name
-- Email Address
-- Phone Number
-- College / Branch
-
-After submitting the form, the registration is processed through the application.
-
-## Demo Flow
-
-1. Open the CSI Event Companion.
-2. View the CSI AITR Student Chapter home screen.
-3. Open the Events section.
-4. Browse the available events.
-5. Select an event to view its details.
-6. Save an event if required.
-7. Register for an event.
-8. Enter the required registration details.
-9. Submit the registration form.
-10. Open My Registrations to view registered events.
-11. Open Saved Events to view saved events.
-
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-
-## Responsive Design
-
-The application is designed to work on different screen sizes, including:
-
-- Mobile
-- Tablet
-- Laptop
-- Desktop
-
-The layout and navigation adjust according to the screen size.
-
-## Design
-
-The application follows the branding of the CSI AITR Student Chapter.
-
-The design focuses on:
-
-- Clean layout
-- Simple navigation
-- Responsive cards
-- Clear buttons
-- Student-friendly interface
-- CSI AITR branding
-
-## Project Structure
-
-CSI-Task-3/
-
-    index.html
-    style.css
-    script.js
-    README.md
-
-    assets/
-        aitr-logo.png
-        csi-logo.jpg
-
-## Future Scope
-
-The application can be extended in the future with:
-
-- Student login and authentication
-- Backend database
-- Event reminders
-- QR-based event attendance
-- Push notifications
-- Digital certificate generation
-- More event management features
-
-## Purpose of the Project
-
-This project was developed as part of the CSI AITR Student Chapter Core Team Selection to demonstrate frontend development, responsive UI design, and JavaScript functionality.
-
----
-
-Developed for CSI AITR Student Chapter
+This is a student-level frontend demo. It does not use a backend, account system, or API.
